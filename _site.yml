@@ -1,0 +1,16 @@
+  
+name: "Group 38: Samson Mifflin, Mackenzie Frolic-Smart, Dawei Yuan "                               
+navbar:
+  title: "Group 38 Math/Stat 3340 Final Project"                            
+  type: inverse
+  left:
+    - text: "Home"
+      icon: fa-home
+      href: index.html
+    - text: "Abstract"
+      icon: fa-lightbulb 
+      href: abstract.html
+output:
+  html_document:
+    theme: cosmo
+    highlight: textmate
