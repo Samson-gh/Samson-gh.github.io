@@ -3,3 +3,10 @@ title: "Homepage"
 ---
 
 # Main Content of the Project
+
+```{r}
+mydata<-read.csv("C:\\Users\\sjmif\\Downloads\\dataA3Q3.csv")
+attach(mydata)
+mymodel<-lm(y~x1+x2)
+plot(mymodel)
+```
